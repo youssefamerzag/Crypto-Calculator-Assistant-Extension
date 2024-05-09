@@ -1,0 +1,10 @@
+{
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "name": "Crypto Calculator Assistant Extension",
+    "description": "The Crypto Calculator Assistant is a handy browser extension designed to simplify cryptocurrency conversions and calculations. With this extension, you can effortlessly convert between various cryptocurrencies and fiat currencies, empowering you to make informed decisions in the dynamic world of digital assets.",
+    "action": {
+        "default_popup": "js/index.html",
+        "default_title": "Crypto Calculator Assistant Extension"
+    }
+}

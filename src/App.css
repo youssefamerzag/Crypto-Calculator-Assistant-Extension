@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container {
+  display: flex;
+  justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+  background-color: #1f2937;
+  padding-top: 15px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form {
   display: flex;
   flex-direction: column;
+}
+
+.label {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.input-group {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-shadow: 5px 5px rgba(0, 98, 90, 0.4), 10px 10px rgba(0, 98, 90, 0.3);
 }
 
-.App-link {
-  color: #61dafb;
+.select {
+  width: 120px;
+  padding: 8px 16px;
+  border: 1px solid #718096;
+  background-color: #4a5568;
+  color: #fff;
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #718096;
+  background-color: #4a5568;
+  color: #fff;
+}
+
+
+.links {
+  display: flex;
+  justify-content: space-around;
 }
