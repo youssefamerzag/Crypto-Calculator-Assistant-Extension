@@ -23,7 +23,7 @@ function App() {
         <div className='links'>
           <a href='https://github.com/youssefamerzag'><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/github.png" alt="github"/></a>
           <a href='https://www.linkedin.com/in/youssefamerzag/'><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/linkedin.png" alt="linkedin"/></a>
-          <p className='text-white text-xl'>Crypto Calculator Assistant</p>
+          <p>Crypto Calculator Assistant</p>
         </div>
         <form className='form'>
           <div>
