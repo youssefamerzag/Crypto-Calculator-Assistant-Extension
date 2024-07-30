@@ -2,21 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.container {
+container {
   display: flex;
   justify-content: center;
 }
 
 .card {
   background-color: #1f2937;
-  padding-top: 15px;
-  padding-bottom: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 8px;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  width: 400px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+  width: 350px;
+  text-align: center;
 }
 
 .form {
@@ -25,45 +22,71 @@
 }
 
 .label {
-  color: #fff;
-  font-weight: bold;
-  margin-bottom: 5px;
-  margin-top: 10px;
+  color: #e5e7eb;
+  font-weight: 600;
+  margin-bottom: 8px;
+  margin-top: 12px;
+  text-align: left;
 }
 
 .input-group {
   display: flex;
   align-items: center;
-  box-shadow: 5px 5px rgba(0, 98, 90, 0.4), 10px 10px rgba(0, 98, 90, 0.3);
+  margin-bottom: 16px;
+  border-radius: 9999px;
+  overflow: hidden;
 }
 
 .select {
-  width: 120px;
-  padding: 8px 16px;
-  border: 1px solid #718096;
-  background-color: #4a5568;
-  color: #fff;
-  border-top-left-radius: 9999px;
-  border-bottom-left-radius: 9999px ;
+  width: 100px;
+  padding: 10px;
+  border: 1px solid #374151;
+  background-color: #374151;
+  color: #e5e7eb;
+  font-size: 14px;
 }
 
 .input {
   flex: 1;
-  padding: 8px;
-  border: 1px solid #718096;
-  background-color: #4a5568;
-  color: #fff;
+  padding: 10px;
+  border: 1px solid #374151;
+  background-color: #4b5563;
+  color: #e5e7eb;
+  font-size: 14px;
 }
-
 
 .links {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
+}
+
+.links a {
+  color: #e5e7eb;
+}
+
+.links img {
+  filter: brightness(0) invert(1);
 }
 
 .links p {
-  font-size: 20px;
-  font-weight: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #e5e7eb;
+  margin: 0;
+}
+
+button {
+  background-color: #10b981;
   color: white;
+  padding: 10px;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #059669;
 }
